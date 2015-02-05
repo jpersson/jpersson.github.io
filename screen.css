@@ -1,0 +1,67 @@
+@font-face {
+	font-family: Signika;
+	src: url('Signika-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fontawesome-webfont.eot?v=3.0.1');
+  src: 
+    url('fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+    url('fontawesome-webfont.woff?v=3.0.1') format('woff'),
+    url('fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+    color: #A7D8F6;
+    font-size: 1.5em;
+}
+
+body {
+    background-color: #797371;
+    color: white;
+    font-size: 30px;
+    font-family: Signika, Sans-Serif;
+}
+
+section {
+    width: 95%;
+    margin: auto;
+}
+
+p {
+    font-size: 1.0em;
+}
+
+a {
+    color: #F7634D;
+}
+
+[class^="icon-"] {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  padding-right: 0.2em;
+}
+
+.icon-globe:before { content: "\f025"; }
+
+@media(min-width :768px){
+ 
+  h1 {
+    font-size: 2.0em;
+  }
+   
+  p {
+    font-size: 1.5em;
+  }
+
+  section {
+      width: 500px;
+  }
+}
