@@ -1,0 +1,344 @@
+/**
+ * Site header
+ */
+.site-header {
+	margin-top: 30px;
+/*    border-bottom: 1px solid $grey-color-light; */
+    min-height: 56px;	
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+.site-title {
+    font-size: 18px;
+    float: left;
+	font-family: Signika, Sans-Serif;
+	
+	border-radius: 5px;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background: $grey-color-light;
+	text-transform: uppercase;
+	
+	margin-left: $content-margin;
+	margin-right: $content-margin;
+	
+	animation: fadein 1s;
+	-webkit-animation: fadein 1s;
+	
+
+    &,
+    &:visited {
+		color: $background-color;
+    }
+	
+	&:hover {
+		background: $brand-color;
+	    text-decoration: none;
+	}	
+}
+
+@-webkit-keyframes fadein {
+    from { background: $brand-color; }
+    to   { background: $grey-color-light; }
+}
+
+@keyframes fadein {
+    from { background: $brand-color; }
+    to   { background: $grey-color-light; }
+}
+
+.site-nav {
+    float: right;
+    line-height: 56px;
+	
+	margin-left: $content-margin;
+	margin-right: $content-margin;
+	
+
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+        line-height: $base-line-height;
+
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+    }
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 9px;
+        right: 30px;
+        background-color: $background-color;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $grey-color-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+        }
+    }
+}
+
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+/*    border-top: 1px solid $grey-color-light; */
+    padding: $spacing-unit 0;
+}
+
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: $spacing-unit / 2;
+}
+
+.contact-list,
+.social-media-list {
+    list-style: none;
+    margin-left: 0;
+	
+	margin-left: $content-margin;
+	margin-right: $content-margin;
+	
+}
+
+.footer-col-wrapper {
+    font-size: 15px;
+    color: $grey-color;
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+}
+
+.footer-col {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+}
+
+.footer-col-1 {
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-laptop) {
+    .footer-col-1,
+    .footer-col-2 {
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
+    }
+
+    .footer-col-3 {
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+@include media-query($on-palm) {
+    .footer-col {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit 0;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+	
+	p {
+		margin-left: $content-margin;
+		margin-right: $content-margin;
+	}	
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color-light;
+}
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+	margin-left: $content-margin;
+	margin-right: $content-margin;
+}
+
+.post-title {
+	margin-left: $content-margin;
+	margin-right: $content-margin;
+
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-container {
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+		margin-left: $content-margin;
+		margin-right: $content-margin;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+		margin-left: $content-margin;
+		margin-right: $content-margin;		
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+		margin-left: $content-margin;
+		margin-right: $content-margin;		
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+	
+	.photo {
+		position: relative;
+		margin-top: 10px;
+		border-radius: 1px;
+		padding: 10px;
+		background-color: white;
+		border: 1px solid $grey-color-lighter;
+		box-shadow: 3px 3px 2px 0px $grey-color-lightest;
+	}
+	
+	.photo-map {
+		
+		border: 0px;
+		
+		border-bottom-right-radius: 1px;
+		border-bottom-left-radius: 1px;
+		
+		width: 100%; 
+		height: 150px; 
+		margin: 0px; 
+		padding: 0px
+	}
+
+	.photo-img {
+		
+		border-top-right-radius: 1px;
+		border-top-left-radius: 1px;
+	}
+	
+	img {
+		width: 100%;
+	}
+	
+	p {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		margin-left: $content-margin;
+		margin-right: $content-margin;
+	}	
+}
+
+.categories {
+	float: right;
+	position:absolute;
+	top:18px;
+	right:5px;
+	text-align: right;
+}
+
+.categories li {
+	float: right;
+	clear: both;
+	text-align: right;
+	color: $background-color;
+	display: table;
+	background-color: $brand-color;
+	list-style: none;
+	font-family: Signika, Sans-Serif;
+	font-size: 0.8em;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 5px;	
+}
+

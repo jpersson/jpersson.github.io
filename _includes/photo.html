@@ -1,0 +1,20 @@
+<div class="photo">
+	{% if include.source_url %}
+	<a href="{{ include.source_url }}">
+		<img class="photo-img" src="{{ include.photo_url }}">
+	</a>
+	{% else %}
+	<img class="photo-img" src="{{ include.photo_url }}">
+	{% endif %}
+    {% if include.photo_position %}
+	<a href="http://www.google.com/maps/place/{{include.photo_position}}">
+		<img class="photo-map" 			         			    src="https://maps.googleapis.com/maps/api/staticmap?center={{include.photo_position}}&scale=2&zoom=14&size=718x150&maptype=roadmap
+&markers=markers=color:red%7Clabel:%7C{{include.photo_position}}">
+	</a>
+	{% endif %}
+    <ul class="categories">
+      {% for category in include.categories %}
+  		<li class="category">{{ category }}</li>
+  	{% endfor %}
+    </ul>
+</div>

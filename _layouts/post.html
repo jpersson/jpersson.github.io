@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="post post-container">
+
+  <header class="post-header">	
+    <span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</span>
+    <h2>{{ page.title }}</h2>
+  </header>
+
+  <article class="post-content">
+	{% if page.photo_url %}
+      {% include photo.html photo_url=page.photo_url photo_position=page.position categories=page.categories source_url=page.source_url%}
+    {% endif %}
+	{{ content }}
+  </article>
+  
+</div>

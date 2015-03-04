@@ -1,18 +1,45 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <meta content="yes" name="apple-mobile-web-app-capable" />
-        <title>Johan Persson</title>
-        <link rel="stylesheet" type="text/css" media="screen" href="screen.css">
-    </head>
-    <body>
-        <section>
-            <h1>Hej &amp; Servus,</h1>
-            <p><span class="icon-globe"></span>I'm <a href='https://alpha.app.net/johan' rel='me'>Johan</a> and I live in Vienna.</p>
-            <p>I like to <a href="http://github.com/jpersson">code</a>, listen to <a href="http://www.last.fm/user/surak">music</a> and ride my <a href="http://app.strava.com/athletes/37399">bike</a>.</p>
-        </section>
-        <script src='https://d2zh9g63fcvyrq.cloudfront.net/adn.js'></script>
-    </body>
-</html>
+---
+layout: default
+---
+
+<div class="home">
+	
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li class="post-container">
+		<header class="post-header">	
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+          <h2>
+		    {% if post.link_url %}
+            <a class="post-link external-link" href="{{ post.link_url }}">{{ post.title }}</a>
+		    {% else %}
+		    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		    {% endif %}
+          </h2>
+		</header>
+	    <article class="post-content">
+		  {% if post.photo_url %}
+		      {% include photo.html photo_url=post.photo_url photo_position=post.position categories=post.categories source_url=page.source_url%}
+		  {% endif %}
+		  {{ post.content }}
+	    </article>
+      </li>
+    {% endfor %}
+  </ul>
+  
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+    {% else %}
+      <span class="previous">Previous</span>
+    {% endif %}
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    {% else %}
+      <span class="next ">Next</span>
+    {% endif %}
+  </div>
+
+</div>

@@ -1,0 +1,14 @@
+# Site settings
+title: johan persson
+email: hi@johanpersson.at
+description: > # this means to ignore newlines until "baseurl:"
+  Mostly about cycling and things I see while doing it.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://johanpersson.at" # the base hostname & protocol for your site
+twitter_username: suraken
+github_username:  jpersson
+
+# Build settings
+markdown: kramdown
+maps_api_key: AIzaSyAKZDGxodErke3nA-6BSPLytnP2sVp4f4Y
+paginate: 10
