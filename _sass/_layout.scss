@@ -226,7 +226,7 @@
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+    margin-bottom: 0px;
 	margin-left: $content-margin;
 	margin-right: $content-margin;
 }
@@ -280,11 +280,11 @@
 	.photo {
 		position: relative;
 		margin-top: 10px;
-		border-radius: 1px;
-		padding: 10px;
-		background-color: white;
-		border: 1px solid $grey-color-lighter;
-		box-shadow: 3px 3px 2px 0px $grey-color-lightest;
+//		border-radius: 1px;
+//		padding: 10px;
+//		background-color: white;
+//		border: 1px solid $grey-color-lighter;
+//		box-shadow: 3px 3px 2px 0px $grey-color-lightest;
 	}
 	
 	.photo-map {
@@ -301,9 +301,10 @@
 	}
 
 	.photo-img {
-		
+/*		
 		border-top-right-radius: 1px;
 		border-top-left-radius: 1px;
+*/		
 	}
 	
 	img {
@@ -322,7 +323,7 @@
 	float: right;
 	position:absolute;
 	top:18px;
-	right:5px;
+	right:0px;
 	text-align: right;
 }
 
@@ -340,5 +341,6 @@
 	padding-left: 10px;
 	padding-right: 10px;
 	margin: 5px;	
+	margin-right: 0px;
 }
 
