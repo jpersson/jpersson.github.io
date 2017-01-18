@@ -178,7 +178,7 @@ pre {
     }
 
     @include media-query($max-width) {
-		max-width: $max-width;
+		  max-width: $max-width;
 	    margin-right: auto;
 	    margin-left: auto;
 	}

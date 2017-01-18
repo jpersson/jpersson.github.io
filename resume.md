@@ -4,9 +4,9 @@ title: Resume
 permalink: /resume/
 ---
 
-Experienced software engineer that has developed a wide variety of  software and web applications and services. Currently looking for a new position in the Malmö area. Feel free to contact me at [jobs@johanpersson.at](jobs@johanpersson.at) with any questions.
+Experienced software engineer who has developed a wide variety of software, web applications and services. Having recently moved back to Sweden after 12 years in Vienna I'm currently looking for a new position in the Malmö area. Feel free to contact me at [jobs@johanpersson.at](jobs@johanpersson.at) with any questions.
 
-## Skills & list of Buzzwords
+## Skills & list of buzzwords
 
 * Web application development
 * Web APIs/services
@@ -16,6 +16,11 @@ Experienced software engineer that has developed a wide variety of  software and
 * REST
 * Micro-services
 * Linux
+* Java
+* Markup
+* German
+* Swedish
+* English
 
 ## Experience
 
@@ -23,7 +28,7 @@ Experienced software engineer that has developed a wide variety of  software and
 
 [Emarsys](http://www.emarsys.com), 2010 - Present
 
-Continued working on existing as well new products for the Emarsys platform. Working in an independent team I was involved in both product design as well as the actual development. As Lead Developer I was, among many things, part of an effort to migrate existing J2EE structure to a more modern REST based micro-service architecture built using both Scala and NodeJS. Other responsibilities included reviewing code, and architecture.
+I continued working on existing and new products for the Emarsys platform. Working in a constantly growing and very independent team I was involved in product design besides the actual development. As Lead Developer I was part of an effort to migrate existing J2EE structure to a more modern REST based micro-service architecture built using both Scala and NodeJS. Other responsibilities included reviewing all changes to code and architecture.
 
 ### Software Developer
 
@@ -31,7 +36,7 @@ Continued working on existing as well new products for the Emarsys platform. Wor
 
 Starting in 2004 I was part of a small team that developed multiple products for the Emarsys platform. Most work was done in Java and J2EE using JBoss. One of the biggest products I was part of was a system for sending highly personalized marketing emails in very big volumes. Was heavily involved in database design and service architecture.
 
-The team was responsible for running the software as well as writing it, which meant doing deployments and standby duty.
+Apart from developing the system we were also responsible for running, which meant doing deployments and standby duty for when things went catastrophic.
 
 ### Java Developer
 
@@ -62,7 +67,7 @@ Minimal library making handling of SQL queries in Scala a bit easier. It takes c
 
 #### Rabbel
 
-A client for the XML-based Instant messaging plattform Jabber, written for Mac OS X/Cocoa and Linux/GNUstep in Objective-C. Designed to be modular and easy to extend with new functionality it relies heavily on plugins providing protocol-specific functionality. This in order to be able to cope with the changes of the Jabber extension protocols.
+A client for the XML-based Instant messaging platform Jabber, written for Mac OS X/Cocoa and Linux/GNUstep in Objective-C. Designed to be modular and easy to extend with new functionality it relies heavily on plugins providing protocol-specific functionality. This in order to be able to cope with the changes of the Jabber extension protocols.
 
 #### BeOrganized
 
