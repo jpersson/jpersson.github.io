@@ -4,7 +4,7 @@
 .site-header {
 	margin-top: 30px;
 /*    border-bottom: 1px solid $grey-color-light; */
-    min-height: 56px;	
+    min-height: 56px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -14,30 +14,30 @@
     font-size: 18px;
     float: left;
 	font-family: Signika, Sans-Serif;
-	
-	border-radius: 5px;
+
+	border-radius: 0px;
 	padding: 10px;
 	padding-right: 20px;
 	padding-left: 20px;
 	background: $grey-color-light;
 	text-transform: uppercase;
-	
+
 	margin-left: $content-margin;
 	margin-right: $content-margin;
-	
+
 	animation: fadein 1s;
 	-webkit-animation: fadein 1s;
-	
+
 
     &,
     &:visited {
 		color: $background-color;
     }
-	
+
 	&:hover {
 		background: $brand-color;
 	    text-decoration: none;
-	}	
+	}
 }
 
 @-webkit-keyframes fadein {
@@ -53,10 +53,10 @@
 .site-nav {
     float: right;
     line-height: 56px;
-	
+
 	margin-left: $content-margin;
 	margin-right: $content-margin;
-	
+
 
     .menu-icon {
         display: none;
@@ -116,7 +116,11 @@
     }
 }
 
-
+.page {
+  width: $content-width;
+  margin-left: auto;
+  margin-right: auto;;
+}
 
 /**
  * Site footer
@@ -135,10 +139,10 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
-	
+
 	margin-left: $content-margin;
 	margin-right: $content-margin;
-	
+
 }
 
 .footer-col-wrapper {
@@ -210,11 +214,11 @@
     > li {
         margin-bottom: $spacing-unit;
     }
-	
+
 	p {
 		margin-left: $content-margin;
 		margin-right: $content-margin;
-	}	
+	}
 }
 
 .post-meta {
@@ -260,7 +264,7 @@
     h3 {
         font-size: 26px;
 		margin-left: $content-margin;
-		margin-right: $content-margin;		
+		margin-right: $content-margin;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -270,13 +274,13 @@
     h4 {
         font-size: 20px;
 		margin-left: $content-margin;
-		margin-right: $content-margin;		
+		margin-right: $content-margin;
 
         @include media-query($on-laptop) {
             font-size: 18px;
         }
     }
-	
+
 	.photo {
 		position: relative;
 		margin-top: 10px;
@@ -286,37 +290,37 @@
 //		border: 1px solid $grey-color-lighter;
 //		box-shadow: 3px 3px 2px 0px $grey-color-lightest;
 	}
-	
+
 	.photo-map {
-		
+
 		border: 0px;
-		
+
 		border-bottom-right-radius: 1px;
 		border-bottom-left-radius: 1px;
-		
-		width: 100%; 
-		height: 150px; 
-		margin: 0px; 
+
+		width: 100%;
+		height: 150px;
+		margin: 0px;
 		padding: 0px
 	}
 
 	.photo-img {
-/*		
+/*
 		border-top-right-radius: 1px;
 		border-top-left-radius: 1px;
-*/		
+*/
 	}
-	
+
 	img {
 		width: 100%;
 	}
-	
+
 	p {
 		margin-top: 15px;
 		margin-bottom: 15px;
 		margin-left: $content-margin;
 		margin-right: $content-margin;
-	}	
+	}
 }
 
 .categories {
@@ -340,7 +344,25 @@
 	padding: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
-	margin: 5px;	
+	margin: 5px;
 	margin-right: 0px;
 }
 
+.page ul {
+  margin-left: 0px;
+}
+
+.page li {
+	clear: both;
+	text-align: right;
+	color: $background-color;
+	display: inline-block;
+	background-color: $brand-color;
+	list-style: none;
+	font-family: Signika, Sans-Serif;
+	font-size: 0.8em;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 3px;
+}

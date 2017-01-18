@@ -12,3 +12,5 @@ github_username:  jpersson
 markdown: kramdown
 maps_api_key: AIzaSyAKZDGxodErke3nA-6BSPLytnP2sVp4f4Y
 paginate: 10
+
+gems: [jekyll-paginate]

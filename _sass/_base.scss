@@ -65,7 +65,9 @@ figcaption {
     font-size: $small-font-size;
 }
 
-
+del {
+  color: $grey-color;
+}
 
 /**
  * Lists
@@ -87,10 +89,8 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+  font-weight: 300;
 	font-family: Signika, Sans-Serif;
-	display: table-cell;
-	
 }
 
 
@@ -101,14 +101,15 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $alt-brand-color;
     text-decoration: none;
+    padding: 2px;
 
     &:visited {
 /*        color: darken($brand-color, 15%);*/
     }
 
     &:hover {
-        background-color: $brand-color;
-		color: $background-color;
+        background-color: $alt-brand-color;
+		    color: $background-color;
     }
 }
 
@@ -175,11 +176,11 @@ pre {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
     }
-	
+
     @include media-query($max-width) {
 		max-width: $max-width;
 	    margin-right: auto;
-	    margin-left: auto;		
+	    margin-left: auto;
 	}
 }
 
