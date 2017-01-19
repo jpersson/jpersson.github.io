@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Resume
+title: Résumé
 permalink: /resume/
 ---
 
-Experienced software engineer who has developed a wide variety of software, web applications and services. Having recently moved back to Sweden after 12 years in Vienna I'm currently looking for a new position in the Malmö area. Feel free to contact me at [jobs@johanpersson.at](jobs@johanpersson.at) with any questions.
+Experienced software engineer who has developed a wide variety of software, web applications and services.
 
-## Skills & list of buzzwords
+*Having recently moved back to Sweden after 12 years in Vienna I'm currently looking for a new position in the Malmö area. Feel free to contact me at [jobs@johanpersson.at](jobs@johanpersson.at) with any questions.*
+
+## Skills
 
 * Web application development
 * Web APIs/services
@@ -28,15 +30,19 @@ Experienced software engineer who has developed a wide variety of software, web 
 
 [Emarsys](http://www.emarsys.com), 2010 - Present
 
-I continued working on existing and new products for the Emarsys platform. Working in a constantly growing and very independent team I was involved in product design besides the actual development. As Lead Developer I was part of an effort to migrate existing J2EE structure to a more modern REST based micro-service architecture built using both Scala and NodeJS. Other responsibilities included reviewing all changes to code and architecture.
+I continued working on existing and new products for the Emarsys platform. Working in a constantly growing and very independent team I was also involved in product design besides the actual development.
+
+As Lead Developer I was part of an effort to migrate existing J2EE structure to a more modern REST based micro-service architecture built using both Scala and NodeJS. Part of this effort also included automating setup of servers using Ansible. Other responsibilities included reviewing all changes to code and architecture.
 
 ### Software Developer
 
 [Emarsys](http://www.emarsys.com), 2004 - 2010
 
-Starting in 2004 I was part of a small team that developed multiple products for the Emarsys platform. Most work was done in Java and J2EE using JBoss. One of the biggest products I was part of was a system for sending highly personalized marketing emails in very big volumes. Was heavily involved in database design and service architecture.
+Starting in 2004 I was part of a small team that developed multiple products for the Emarsys platform. Most work was done in Java and J2EE using JBoss.
 
-Apart from developing the system we were also responsible for running, which meant doing deployments and standby duty for when things went catastrophic.
+One of the biggest products I was part of developing, was a system for sending highly personalized marketing emails in very big volumes. I was heavily involved in database design, service architecture as well as the mail-engine development.
+
+Apart from writing code we were also responsible for running the system, which meant doing deployments and standby duty for when things went catastrophic.
 
 ### Java Developer
 
@@ -48,7 +54,9 @@ In the early spring of 2004 I was part of team developing a prototype system for
 
 [Blekinge Institute of Technology](http://www.bth.se), 2003
 
-I was part of a team to develop a new system for handling courses and schedules at Blekinge Institute of Technology. The system was written following the MVC pattern and the controller layer were written in pure Java and utilizing an Oracle database in the data model layer. The system could be accessed using two different views, one based on Java Servlets which together with template technology could be accessed from the web and another one written in Java Swing for accessing parts of the system from a normal application. Besides the actual implementation I also took part in the design of both the system architecture and the database model.
+I was part of a team to develop a new system for handling courses and schedules at Blekinge Institute of Technology. The system was written following the MVC pattern and the controller layer were written in pure Java and utilizing an Oracle database in the data model layer.
+
+The system could be accessed using two different views, one based on Java Servlets which together with template technology could be accessed from the web and another one written in Java Swing for accessing parts of the system from a normal application. Besides the actual implementation I also took part in the design of both the system architecture and the database model.
 
 ### Karlshamn Kraft AB
 
@@ -61,17 +69,35 @@ And during the summer of 2002 I continued my work on their document handling sys
 
 I usually have some project of my own that I am working on, it is often some small application or plugin that helps me in my daily work. Examples of some of the more serious projects are:
 
+#### Take Away
+
+A Mac app, written using Cocoa and Objective-C, for keeping iTunes libraries in sync across multiple machines. Development stopped after Apples announcement of iTunes Match.
+
+[More information](/software#takeaway)
+
 #### Prequel
 
-Minimal library making handling of SQL queries in Scala a bit easier. It takes care of connection handling/pooling, sql escaping, parameter conversion and to some extent transaction handling.
+Minimal library making handling of SQL queries in Scala a bit easier. It takes care of connection handling/pooling, SQL escaping, parameter conversion and to some extent transaction handling.
+
+[More information](http://github.com/jpersson/prequel)
 
 #### Rabbel
 
-A client for the XML-based Instant messaging platform Jabber, written for Mac OS X/Cocoa and Linux/GNUstep in Objective-C. Designed to be modular and easy to extend with new functionality it relies heavily on plugins providing protocol-specific functionality. This in order to be able to cope with the changes of the Jabber extension protocols.
+A client for the XML-based Instant messaging platform [Jabber](http://www.jabber.org), written for Mac OS X/Cocoa and Linux/GNUstep in Objective-C. Designed to be modular and easy to extend with new functionality it relies heavily on plugins providing protocol-specific functionality. This in order to be able to cope with the changes of the Jabber extension protocols.
 
-#### BeOrganized
+[More information](/software#rabbel)
 
-A personal information manager written in C++ for BeOS, implemented using file attributes making it very integrated with system.
+#### BeOrganised
+
+A personal information manager written in C++ for [BeOS](https://en.wikipedia.org/wiki/BeOS), implemented using file attributes making it very integrated with system. Supported both appointments and todos.
+
+[More information](/software#beorganised)
+
+#### Olmeki
+
+Minimal [Jabber](http://www.jabber.org) client written in C++ for [BeOS](https://en.wikipedia.org/wiki/BeOS). Was written out of necessity and supported only the chat-related parts of the protocol.
+
+[More information](/software#olmeki)
 
 ## Education
 

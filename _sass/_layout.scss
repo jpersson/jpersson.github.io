@@ -3,16 +3,14 @@
  */
 .site-header {
 	margin-top: 30px;
-/*    border-bottom: 1px solid $grey-color-light; */
-    min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
+  min-height: 56px;
+  // Positioning context for the mobile navigation icon
+  position: relative;
 }
 
 .site-title {
-    font-size: 18px;
-    float: left;
+  font-size: 18px;
+  float: left;
 	font-family: Signika, Sans-Serif;
 
 	border-radius: 0px;
@@ -51,69 +49,69 @@
 }
 
 .site-nav {
-    float: right;
-    line-height: 56px;
+  float: right;
+  line-height: 56px;
 
 	margin-left: $content-margin;
 	margin-right: $content-margin;
 
 
+  .menu-icon {
+      display: none;
+  }
+
+  .page-link {
+    line-height: $base-line-height;
+
+    // Gaps between nav items, but not on the first one
+    &:not(:first-child) {
+        margin-left: 20px;
+    }
+  }
+
+  @include media-query($on-palm) {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: right;
+
     .menu-icon {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center;
+
+        > svg {
+            width: 18px;
+            height: 15px;
+
+            path {
+                fill: $grey-color-dark;
+            }
+        }
+    }
+
+    .trigger {
+        clear: both;
         display: none;
     }
 
+    &:hover .trigger {
+        display: block;
+        padding-bottom: 5px;
+    }
+
     .page-link {
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
+        display: block;
+        padding: 5px 10px;
     }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
-    }
+  }
 }
 
 .page {
@@ -200,7 +198,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: $spacing-unit 20px;
 }
 
 .page-heading {
@@ -252,43 +250,38 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
-		margin-left: $content-margin;
-		margin-right: $content-margin;
+      font-size: 32px;
+		  margin-left: $content-margin;
+		  margin-right: $content-margin;
 
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
+      @include media-query($on-laptop) {
+        font-size: 28px;
+      }
     }
 
     h3 {
-        font-size: 26px;
-		margin-left: $content-margin;
-		margin-right: $content-margin;
+      font-size: 26px;
+		  margin-left: $content-margin;
+		  margin-right: $content-margin;
 
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
+      @include media-query($on-laptop) {
+        font-size: 22px;
+      }
     }
 
     h4 {
-        font-size: 20px;
-		margin-left: $content-margin;
-		margin-right: $content-margin;
+      font-size: 20px;
+		  margin-left: $content-margin;
+		  margin-right: $content-margin;
 
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
+      @include media-query($on-laptop) {
+        font-size: 18px;
+      }
     }
 
 	.photo {
 		position: relative;
 		margin-top: 10px;
-//		border-radius: 1px;
-//		padding: 10px;
-//		background-color: white;
-//		border: 1px solid $grey-color-lighter;
-//		box-shadow: 3px 3px 2px 0px $grey-color-lightest;
 	}
 
 	.photo-map {
@@ -302,13 +295,6 @@
 		height: 150px;
 		margin: 0px;
 		padding: 0px
-	}
-
-	.photo-img {
-/*
-		border-top-right-radius: 1px;
-		border-top-left-radius: 1px;
-*/
 	}
 
 	img {
