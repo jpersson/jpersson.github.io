@@ -48,7 +48,7 @@ Apart from writing code we were also responsible for running the system, which m
 
 [Densitet AB](http://www.densitet.com), 2004
 
-In the early spring of 2004 I was part of team developing a prototype system for Densitet AB located in Karlskrona. I was responsible for the mobile-access part and wrote a client in J2ME which communicated, using XML, with their existing MOSES system. Besides the client I also wrote a few Java-servlets providing the client with additional functionality.
+In the early spring of 2004 I was part of a team developing a prototype system for Densitet AB located in Karlskrona. I was responsible for the mobile-access part and wrote a client in J2ME which communicated, using XML, with their existing MOSES system. Besides the client I also wrote a few Java-servlets providing the client with additional functionality.
 
 ### Java Developer
 
@@ -60,12 +60,13 @@ The system could be accessed using two different views, one based on Java Servle
 
 ### Web Developer
 
-Karlshamn Kraft AB, 1999 & 2002
+Karlshamn Kraft AB, 1999, 2001 & 2002
 
 During the summer of 1999 I was hired as web-programmer and worked on their Intranet system. This was mainly done i ASP/VBScript/JScript.
+
 The following summer I worked on their document handling system. I wrote some web-interface parts as well as some tools for converting/transferring data from their older systems into the new system.
 
-And during the summer of 2002 I continued my work on their document handling system. I continued writing tools for converting/transferring data from older systems to the new one, creating web-interface parts for searching and registering documents and also wrote stored procedures for the database backend.
+In the summer of 2002 I continued my work on their document handling system. I continued writing tools for converting/transferring data from older systems to the new one, creating web-interface parts for searching and registering documents and also wrote stored procedures for the database backend.
 
 ### Private projects
 
