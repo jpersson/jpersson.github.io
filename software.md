@@ -14,6 +14,12 @@ A Mac app for keeping iTunes libraries in sync across multiple machines. Develop
 
 The main window of Take Away that shows the sync state and buttons for adding new rules or to perform a sync.
 
+## <a name="prequel"></a>Prequel
+
+Minimal library making handling of SQL queries in Scala a bit easier. It takes care of connection handling/pooling, SQL escaping, parameter conversion and to some extent transaction handling. No longer actively developed since better alternatives like [Slick from Lightbend](http://slick.lightbend.com) popped up.
+
+[Github Repository](http://github.com/jpersson/prequel)
+
 ## <a name="beorganised"></a>BeOrganised
 
 A personal information manager written in C++ for [BeOS](https://en.wikipedia.org/wiki/BeOS), implemented using file attributes making it very integrated with system.
