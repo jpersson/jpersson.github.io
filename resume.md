@@ -38,7 +38,7 @@ As Lead Developer I was part of an effort to migrate existing J2EE structure to 
 
 [Emarsys](http://www.emarsys.com), 2004 - 2010
 
-Starting in 2004 I was part of a small team that developed multiple products for the Emarsys platform. Most work was done in Java and J2EE using JBoss.
+Starting at Emarsys in Vienna in 2004 I was part of a small team that developed multiple products for the Emarsys marketing platform. Most work was done in Java and J2EE using JBoss.
 
 One of the biggest products I was part of developing, was a system for sending highly personalized marketing emails in very big volumes. I was heavily involved in database design, service architecture as well as the mail-engine development.
 
@@ -58,7 +58,9 @@ I was part of a team to develop a new system for handling courses and schedules 
 
 The system could be accessed using two different views, one based on Java Servlets which together with template technology could be accessed from the web and another one written in Java Swing for accessing parts of the system from a normal application. Besides the actual implementation I also took part in the design of both the system architecture and the database model.
 
-### Karlshamn Kraft AB
+### Web Developer
+
+Karlshamn Kraft AB, 1999 & 2002
 
 During the summer of 1999 I was hired as web-programmer and worked on their Intranet system. This was mainly done i ASP/VBScript/JScript.
 The following summer I worked on their document handling system. I wrote some web-interface parts as well as some tools for converting/transferring data from their older systems into the new system.
