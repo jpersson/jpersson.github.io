@@ -6,7 +6,7 @@ permalink: /resume/
 
 Experienced software engineer who has developed a wide variety of software, web applications and services.
 
-*Having recently moved back to Sweden after 12 years in Vienna I'm currently looking for a new position in the Malmö area. Feel free to contact me at [jobs@johanpersson.at](jobs@johanpersson.at) with any questions.*
+*Having recently moved back to Sweden after 12 years in Vienna I'm currently looking for a new position in the Malmö area. Feel free to contact me at [jobs@johanpersson.at](mailto:jobs@johanpersson.at) with any questions.*
 
 ## Skills
 
