@@ -26,7 +26,7 @@ Experienced software engineer who has developed a wide variety of software, web 
 
 ### Lead Developer
 
-[Emarsys](http://www.emarsys.com), 2010 - Present
+[Emarsys](http://www.emarsys.com), 2010 - 2017
 
 I continued working on existing and new products for the Emarsys platform. Working in a constantly growing and very independent team I was also involved in product design besides the actual development.
 
