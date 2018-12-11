@@ -24,6 +24,20 @@ Experienced software engineer who has developed a wide variety of software, web 
 
 ## Experience
 
+### Senior Software Developer
+
+[Emarsys](http://www.emarsys.com), 2018 - Present
+
+Started at Emarsys again after moving back to Vienna. New team, new position and new challenges. 
+
+### Senior Software Developer
+
+[Trialbee](http://trialbee.com), 2017 - 2018
+
+Worked at, Trialbee, the medical startup in Malmö on their new Medical Trial Platform. A small team meant that I got to work with everything from the React web application, the React Native mobile application to the GraphQL powered backend written in NodeJS. 
+
+Left the company too early due us moving back to Vienna. 
+
 ### Lead Developer
 
 [Emarsys](http://www.emarsys.com), 2010 - 2017
